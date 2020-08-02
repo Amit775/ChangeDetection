@@ -105,6 +105,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "change-detection"
+    }
+  },
+  "defaultProject": "change-detection",
+  "cli": {
+    "analytics": false
+  }
 }
