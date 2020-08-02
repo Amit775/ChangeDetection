@@ -1,20 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-a-b-b-b-a',
-  template: `
-    <p>
-      a-b-b-b-a works!
-    </p>
-  `,
-  styles: [
-  ]
+	selector: 'app-a-b-b-b-a',
+	template: `
+        <div class="title" toggleOnCheck (click)="null">ABBBA</div>
+  	`
 })
-export class ABBBAComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class ABBBAComponent { }

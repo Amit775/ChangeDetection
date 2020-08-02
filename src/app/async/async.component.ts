@@ -1,20 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-async',
-  template: `
-    <p>
-      async works!
-    </p>
-  `,
-  styles: [
-  ]
+	selector: 'app-async',
+	template: `
+	<div class="tree">
+		<ul>
+			<li>
+				<app-a></app-a>
+			</li>
+		</ul>
+	</div>
+  	`
 })
-export class AsyncComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class AsyncComponent { }
