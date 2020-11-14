@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, 
+ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
 	selector: 'app-a-b-a',
 	template: `
-        <div class="title" toggleOnCheck (click)="null">ABA</div>
+        <div class="title on-push" toggleOnCheck (click)="null">ABA</div>
 
 		<ul>
 			<li>
@@ -13,6 +14,7 @@ import { Component } from '@angular/core';
 				<app-a-b-a-b></app-a-b-a-b>
 			</li>
 		</ul>
-  	`
+  	`,
+	changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ABAComponent { }

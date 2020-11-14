@@ -10,6 +10,6 @@ import { Component } from '@angular/core';
 				<app-a-b-b-b-a></app-a-b-b-b-a>
 			</li>
 		</ul>
-  	`
+	`
 })
 export class ABBBComponent { }

@@ -1,8 +1,6 @@
 import { Directive, ElementRef, AfterViewChecked, NgZone, Input } from "@angular/core";
 
-@Directive({
-	selector: '[toggleOnCheck]'
-})
+@Directive({ selector: '[toggleOnCheck]' })
 export class ToggleOnCheckDirective implements AfterViewChecked {
 
 	private _className: string

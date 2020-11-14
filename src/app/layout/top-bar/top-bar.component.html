@@ -1,0 +1,9 @@
+<mat-toolbar class="container">
+	<span class="side title">Change Detection</span>
+	<span class="actions">
+		<button mat-stroked-button *ngFor="let route of routes" [routerLink]="route" routerLinkActive="active">
+			{{ route }}
+		</button>
+	</span>
+	<span class="side title">Demonstration</span>
+</mat-toolbar>

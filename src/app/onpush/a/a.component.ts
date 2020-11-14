@@ -13,6 +13,6 @@ import { Component } from '@angular/core';
 				<app-a-b></app-a-b>
 			</li>
 		</ul>
-  	`
+	`
 })
 export class AComponent { }

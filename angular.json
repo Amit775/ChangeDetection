@@ -52,6 +52,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/custom-theme.scss",
               "src/styles.less"
             ],
             "scripts": []
@@ -109,6 +110,7 @@
   },
   "defaultProject": "change-detection",
   "cli": {
+    "package-manager": "yarn",
     "analytics": false
   }
 }

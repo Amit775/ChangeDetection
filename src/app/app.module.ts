@@ -1,3 +1,4 @@
+import { MaterialModule } from './shared/material.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -8,10 +9,15 @@ import { AsyncModule } from './async/async.module';
 import { DefaultModule } from './default/default.module';
 import { ManualModule } from './manual/manual.module';
 import { OnpushModule } from './onpush/onpush.module';
+import { TopBarComponent } from './layout/top-bar/top-bar.component';
+import { FooterComponent } from './layout/footer/footer.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
 	declarations: [
-		AppComponent
+		AppComponent,
+		TopBarComponent,
+		FooterComponent
 	],
 	imports: [
 		BrowserModule,
@@ -19,7 +25,9 @@ import { OnpushModule } from './onpush/onpush.module';
 		DefaultModule,
 		OnpushModule,
 		AsyncModule,
-		ManualModule
+		ManualModule,
+		BrowserAnimationsModule,
+		MaterialModule
 	],
 	bootstrap: [AppComponent]
 })

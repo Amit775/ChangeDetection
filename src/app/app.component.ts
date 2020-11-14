@@ -2,12 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
 	selector: 'app-root',
-	template: `
-	<app-async></app-async>
-    <router-outlet></router-outlet>
-  `,
-	styles: []
+	templateUrl: './app.component.html',
+	styleUrls: ['./app.component.less']
 })
-export class AppComponent {
-	title = 'change-detection';
-}
+export class AppComponent { }

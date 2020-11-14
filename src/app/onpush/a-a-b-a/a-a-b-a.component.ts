@@ -4,6 +4,6 @@ import { Component } from '@angular/core';
 	selector: 'app-a-a-b-a',
 	template: `
         <div class="title" toggleOnCheck (click)="null">AABA</div>
-  	`
+	`
 })
 export class AABAComponent { }
