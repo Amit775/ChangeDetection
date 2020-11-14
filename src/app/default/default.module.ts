@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
+import { SharedModule } from 'src/app/shared/shared.module';
+
 import { DefaultComponent } from './default.component';
+
 import { AComponent } from './a/a.component';
 import { AAComponent } from './a-a/a-a.component';
 import { AAAComponent } from './a-a-a/a-a-a.component';
@@ -21,11 +25,11 @@ import { ABBBComponent } from './a-b-b-b/a-b-b-b.component';
 import { ABBBAComponent } from './a-b-b-b-a/a-b-b-b-a.component';
 
 
-
 @NgModule({
-  declarations: [DefaultComponent, AComponent, AAComponent, AAAComponent, AAAAComponent, AAABComponent, AAACComponent, AABComponent, AABAComponent, AABBComponent, ABComponent, ABAComponent, ABAAComponent, ABABComponent, ABBComponent, ABBAComponent, ABBAAComponent, ABBBComponent, ABBBAComponent],
-  imports: [
-    CommonModule
-  ]
+	declarations: [DefaultComponent, AComponent, AAComponent, AAAComponent, AAAAComponent, AAABComponent, AAACComponent, AABComponent, AABAComponent, AABBComponent, ABComponent, ABAComponent, ABAAComponent, ABABComponent, ABBComponent, ABBAComponent, ABBAAComponent, ABBBComponent, ABBBAComponent],
+	imports: [
+		CommonModule,
+		SharedModule
+	]
 })
 export class DefaultModule { }

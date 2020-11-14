@@ -1,5 +1,4 @@
-import { Component, 
-ChangeDetectionStrategy } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
 	selector: 'app-async',
@@ -11,7 +10,6 @@ ChangeDetectionStrategy } from '@angular/core';
 			</li>
 		</ul>
 	</div>
-  	`,
-	changeDetection: ChangeDetectionStrategy.OnPush
+  	`
 })
 export class AsyncComponent { }

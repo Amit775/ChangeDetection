@@ -25,7 +25,6 @@ import { ABComponent } from './a-b/a-b.component';
 import { AComponent } from './a/a.component';
 
 
-
 @NgModule({
 	declarations: [AsyncComponent, AComponent, AAComponent, AAAComponent, AAAAComponent, AAABComponent, AAACComponent, AABComponent, AABAComponent, AABBComponent, ABComponent, ABAComponent, ABAAComponent, ABABComponent, ABBComponent, ABBAComponent, ABBAAComponent, ABBBComponent, ABBBAComponent],
 	imports: [

@@ -1,4 +1,4 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
 	selector: 'app-a-b-b-a',
@@ -10,7 +10,7 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
 				<app-a-b-b-a-a></app-a-b-b-a-a>
 			</li>
 		</ul>
-  	`,
+	`,
 	changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ABBAComponent { }

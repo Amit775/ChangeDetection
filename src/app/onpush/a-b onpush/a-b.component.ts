@@ -1,4 +1,4 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
 	selector: 'app-a-b',
@@ -13,7 +13,7 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
 				<app-a-b-b></app-a-b-b>
 			</li>
 		</ul>
-  	`,
+	`,
 	changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ABComponent { }
